@@ -9,9 +9,9 @@ Your program must create a file called "output" which contains, on separate line
 Since neither the book nor Rosalind provide a good outline of the algorithm you can use to solve this problem, here's a brief outline in pseudocode:
 
 >Construct a class that represents a suffix tree
-One possible solution creates a class for a node, which contains the following information:
- - label of edge leading into node from parent (can be either a string or coordinates within the string provided in the input)
- - dictionary of children indexed by the first character on the edges leading into each child.
+>One possible solution creates a class for a node, which contains the following information:
+> - label of edge leading into node from parent (can be either a string or coordinates within the string provided in the input)
+> - dictionary of children indexed by the first character on the edges leading into each child.
 
 Start by creating the root - an empty node
 Process the string suffix by suffix, starting from root
